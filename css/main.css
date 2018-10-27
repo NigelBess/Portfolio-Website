@@ -1,0 +1,203 @@
+@import "reset.css";
+/*HTML Reset above. helps with browser compatibility*/
+/* MY CODE BElOW*/
+
+:root
+{
+	background-color: #505050;
+	box-sizing: border-box;
+	font-family: "Courier New";
+	--myBlue: #57a4f2;
+}
+*
+{
+	box-sizing: border-box;
+}
+img
+{
+}
+ a
+ {
+ 	color: inherit;
+ 	text-decoration: inherit;
+ }
+#topBar
+{
+	background-color: #303030;
+	height:400px;
+	overflow: auto;
+}
+.row
+{
+	display: flex;
+	height:100%;
+	box-sizing: border-box;
+}
+.columnL
+{
+	height:100%;
+	text-align: center;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.columnR
+{	
+	flex-grow: 1;
+	height:100%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+#title
+{
+	color: var(--myBlue);
+	text-align: center;
+	font-size: 56px;
+	font-weight: bold;
+}
+#subInfo
+{
+	color: #DDDDDD;
+	text-align: center;
+	font-size: 24px;
+	padding:20px;
+}
+#contactInfo
+{
+	color: var(--myBlue);
+	padding:20px;
+	text-align: center;
+}
+#contactInfo > div
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.filler
+{
+	flex-grow: 1;
+}
+.tabRow
+{	
+	box-sizing: border-box;
+	display: flex;
+	bottom: 50px;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+}
+.tabButton
+{	
+	margin-right: 10px;
+	margin-left:10px;
+	padding: 10px;
+	text-align: center;
+	overflow: hidden;
+	background-color: #101010;
+	color: white;
+	width: 20%;
+	height: 80px;
+}
+.tabButton:hover
+{
+	background-color: #181818;
+	cursor: pointer;
+	color: var(--myBlue);
+	
+}
+.tab
+{
+	display: none;
+	padding: 20px;
+	color: white;
+	flex-grow: 1;
+	overflow: auto;
+}
+.tab.active
+{
+	display: block;
+}
+#tab0
+{
+	text-align: center;
+}
+.resumeItem
+{
+	display: flex;
+}
+
+.entryTitle
+{	
+	text-decoration: underline;
+	font-size: 24px;
+	color: var(--myBlue);
+	font-weight: bold;
+	padding: 15px;
+	text-align: left;
+}
+.itemTitle
+{	
+	font-size: 20px;
+		padding-top: 10px;
+	padding-bottom: 5px;
+	text-align: left;
+	padding-left: 50px; 
+}
+.itemNote
+{	
+	list-style-position: inside;
+	display: list-item;
+	text-align: left;
+	padding-left: 80px;
+	color: #AAAAAA;
+}
+.itemR
+{
+	text-align: right;
+	padding-right:50px;
+}
+.sticky
+{
+	position: sticky;
+}
+.sideFlex
+{
+	display: flex;
+}
+.vertFlex
+{
+	display: flex;
+	flex-direction: column;
+}
+.flexContent
+{
+	padding: 20px;
+	flex-grow: 1;
+	line-height: 30px;
+}
+.contentImage
+{
+	height:300px;
+	padding: 20px;
+}
+.bigContentImage
+{
+	max-width:100%;
+	height: auto;
+	padding: 20px;
+	padding-top:50px;
+}
+.dl
+{
+	color: var(--myBlue);
+}
+button
+{
+	border: inherit;
+	background: none;
+	font-family: inherit;
+	font-size: inherit;
+	outline: none;
+}
+span {width: 100%}
