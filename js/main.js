@@ -1,4 +1,4 @@
-var numTabs = 6;
+var numTabs = 7;
 var tabs = new Array(numTabs);
 var navBarOffset = 280;
 
