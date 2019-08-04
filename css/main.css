@@ -19,9 +19,13 @@ img
 }
  a
  {
- 	color: inherit;
+ 	color: var(--myBlue);
  	text-decoration: inherit;
  }
+a:hover
+{
+	color: var(--lightBlue);
+}
 #topBar
 {
 	background-color: #303030;
@@ -75,14 +79,7 @@ img
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
-#contactInfo a
-{
-	color: var(--myBlue);
-}
-#contactInfo a:hover
-{
-	color: var(--lightBlue);
-}
+
 .filler
 {
 	flex-grow: 1;
