@@ -109,7 +109,7 @@ a:hover
 {
 	background-color: #181818;
 	cursor: pointer;
-	color: var(--myBlue);
+	color: var(--lightBlue);
 	
 }
 .tab
@@ -169,6 +169,7 @@ a:hover
 .sideFlex
 {
 	display: flex;
+	padding:20px;
 }
 .vertFlex
 {
@@ -183,9 +184,13 @@ a:hover
 }
 .contentImage
 {
-	max-height:300px;
 	padding: 20px;
-	width: auto;
+	width: 60%;
+}
+.smallContentImage
+{
+	padding: 20px;
+	width: 40%;
 }
 .bigContentImage
 {
