@@ -50,6 +50,9 @@
 							Automated Mouse Training Rig
 							
 						</button>
+						<button class="tabButton" onclick="openTab(4)">
+							FLIR Pan-Tilt
+						</button>
 						<button class="tabButton" onclick="openTab(2)">
 							Research Video Games
 						</button>
@@ -57,6 +60,7 @@
 						<button class="tabButton" onclick="openTab(3)">
 							Wildy
 						</button>
+
 						
 					</div>
 				
@@ -174,13 +178,13 @@
 			</div>
 			<div id="tab1" class="tab">
 				<div style="text-align: center;">
-				<video width="80%" controls>
-					<source src="./img/mouse2.mp4" type="video/mp4">
-				</video>
-			</div>
+					<video controls autoplay width="80%" >
+						<source src="./img/mouse2.mp4" type="video/mp4">
+					</video>
+				</div>
 				
 				<div class="flexContent"> 
-					Experiments at the Dr. Goard Research lab involve imaging the brains of mice 	while they play simple video games. The mice have to be trained to play video games, and this is accomplished using an automated sytem that rewards them for their performance.
+					Experiments at the Dr. Goard Research lab involve imaging the brains of mice while they play simple video games. The mice have to be trained to play video games, and this is done using an automated sytem that rewards them for their performance.
 					<br>
 					<br>
 					I redesigned the hardware, software, and electronics of this system. The current system is more reliable,  easier to assemble and maintain, and trains mice to acheive higher success rates.
@@ -192,9 +196,6 @@
 					<br>
 					Documentation for the game engine can be found here: <a href="https://github.com/NigelBess/PTB-Game-Engine/blob/master/Documentation.pdf">Game Engine Docs</a>
 				</div>
-				
-
-
 			</div>
 				
 			<div id="tab2" class="tab">
@@ -209,7 +210,6 @@
 					<br>
 					Source code can be found here: <a href="https://github.com/NigelBess/Anthropology-Games/tree/master/Assets/Scripts">Github Link</a>
 				</div>
-					
 					<div class="sideFlex">
 						<img src="./img/trajectory.gif" width="40%">
 						<div class="flexContent">
@@ -232,8 +232,7 @@
 						</div>
 						
 					</div>
-					
-			</div>
+				</div>
 			<div id="tab3" class="tab">
 				<div style="text-align: center;">
 					<img src="./img/wildy0.png" class="contentImage">
@@ -246,8 +245,28 @@
 						Here is some gameplay footage.
 						<br>
 						<video controls width="80%">
-						<source src="./img/wildy2.mp4" type="video/mp4">
+							<source src="./img/wildy2.mp4" type="video/mp4">
+						</video>
+					</div>
+				</div>
+			</div>
+			<div id="tab4" class="tab">
+				<div style="text-align: center;">
+					<video controls autoplay width="40%" >
+						<source src="./img/assembly.mp4" type="video/mp4">
 					</video>
+				</div>
+				<div class="flexContent">
+					For my Capstone project at UCSB, I was part of a team that designed and built a high precision, high reliability pan-tilt system for FLIR. My biggest contributions to the project were the design of the rotary seal assemblies, design of the camera mounting system, drivetrain selection, and writing the firmware.
+					<br>
+					<br>
+					Firmware code (written in the assembly language for Trinamic driver boards) can be found here: <a href="https://github.com/NigelBess/FLIR-Pan-Tilt-Prototype/blob/master/main.tmc">Github Link</a>
+				</div>
+					<div class="sideFlex">
+						<img src="./img/award2.png" width="40%">
+						<div class="flexContent">
+							This project won the award for Best Technical Project in Mechanical Engineering.
+						</div>
 					</div>
 				</div>
 			</div>

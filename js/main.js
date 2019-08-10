@@ -1,8 +1,9 @@
-var numTabs = 7;
+var numTabs = 5;
 var tabs = new Array(numTabs);
 var navBarOffset = 280;
 
 var topBar = document.getElementById("topBar");
+var videos = document.getElementsByTagName("video");
 
 for (i=0;i<numTabs;i++)
 {	
@@ -24,6 +25,17 @@ function openTab(num)
 		} else
 		{
 			close(tabs[i]);
+		}
+	}
+	for (i=0;i<videos.length;i++)
+	{
+		if(isDescendant(tabs[num],videos[i]))
+		{	
+			videos[i].load();
+			videos[i].play();
+		} else
+		{
+			videos[i].pause();
 		}
 	}
 }
@@ -61,4 +73,17 @@ function navBarOnScroll()
     		topBar.setAttribute("style","top:0;");
     	}
   	}
+}
+function isDescendant(parent, child) 
+{
+     var node = child.parentNode;
+     while (node != null) 
+     {
+         if (node == parent) 
+         {
+             return true;
+         }
+         node = node.parentNode;
+     }
+     return false;
 }
