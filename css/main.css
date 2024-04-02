@@ -104,16 +104,19 @@ a:hover
 	margin-right: 10px;
 	margin-left:10px;
 	padding: 10px;
+	font-size: 30;
 	text-align: center;
 	overflow: hidden;
-	background-color: #101010;
+	background-color: #3f5e6b;
 	color: white;
 	width: 20%;
 	height: 80px;
+	box-shadow: 6px 6px 10px 0 rgba(0,0,0,0.5); /* Horizontal offset, Vertical offset, Blur radius, Spread radius, Color */
+
 }
 .tabButton:hover
 {
-	background-color: #181818;
+	background-color: #598191;
 	cursor: pointer;
 	color: var(--lightBlue);
 	
