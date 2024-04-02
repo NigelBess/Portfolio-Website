@@ -23,8 +23,8 @@
 					Nigel Bess
 
 				</div>
-				<div id="subInfo">
-					Software Engineer
+				<div id="subInfo"> 
+					Software - Mechanical Engineering - Machine Learning
 				</div>
 					<div id="contactInfo">
 					<div> 
@@ -58,16 +58,18 @@
 							Resume
 						</button>
 						<button class="tabButton" onclick="openTab(1)">
-							Automated Mouse Training Rig
-							
+							T.H.A.A.D.							
+						</button>
+						<button class="tabButton" onclick="openTab(5)">
+							Automated Mouse Training Rig							
+						</button>
+						
+						<button class="tabButton" onclick="openTab(2)">
+							Research Video Games
 						</button>
 						<button class="tabButton" onclick="openTab(4)">
 							FLIR Pan-Tilt
 						</button>
-						<button class="tabButton" onclick="openTab(2)">
-							Research Video Games
-						</button>
-						
 						<button class="tabButton" onclick="openTab(3)">
 							Wildy
 						</button>
@@ -191,6 +193,24 @@
 			</div>
 			<div id="tab1" class="tab">
 				<div style="text-align: center;">
+						<img src="./img/thaad.jpg" width="40%" style="height: auto;">
+				</div>
+				<div class="flexContent"> 
+					During my time at FLIR, I contributed significantly to the development of critical sensor technology for the Terminal High Altitude Air Defense (THAAD) system, a cornerstone of the United States' defense against Intercontinental Ballistic Missiles (ICBMs). THAAD is a system designed to intercept incoming ballistic missiles, including nuclear threats, during their terminal phase of their approach to impact. FLIR's cryogenically cooled mid-wavelength IR sensors are pivotal for the THAAD system's ability to detect and track incoming threats, ensuring a robust defense mechanism.
+					<br>
+					<br>
+					I acted as the primary software developer for the final Quality Assurance (QA) testing of THAAD sensors. This involved intricate software engineering to interface with complex electromechanical systems for data collection and analysis.
+					<br>
+					Our software served as FLIR's final validation step for the sensors, necessitating adherence to stringent standards for repeatability and measurement accuracy. I successfully navigated extensive third-party validation processes to guarantee sensor reliability in critical scenarios.
+					<br>
+					<br>
+					<b>Reflection on Ethical Considerations:</b>
+					<br>
+					While my career at FLIR involved contributing to defense technology, I am deeply committed to ethical principles and the pursuit of work that serves constructive purposes. I recognize the importance of defense systems in maintaining peace and security, and I am proud of my contributions to THAAD. However, moving forward, my focus is to leverage my expertise in technology and leadership towards projects that directly contribute to constructive, rather than destructive, efforts.
+				</div>
+			</div>
+			<div id="tab5" class="tab">
+				<div style="text-align: center;">
 					<img src="./img/fullhirez.jpg" width="40%" style="height: auto;">
 					<!-- <video controls autoplay width="80%" style="max-height: 500px;" >
 						<source src="./img/mouse2.mp4" type="video/mp4">
@@ -198,13 +218,19 @@
 				</div>
 				
 				<div class="flexContent"> 
-					Experiments at the Dr. Goard Research lab involve imaging the brains of mice while they play simple video games. I joined the lab as a systems engineer and led a small team of undergraduate engineers to develop an automated device for training mice to play those games. We designed everything including hardware, software, electronics, robotics control, and data collection in a high-reliability and low-cost package capable of running 24 hours a day for months on end without human supervision.
+					In the Dr. Goard Research Lab, training mice to play video games was a critical yet slow and costly process, heavily reliant on human supervision. Identifying the need for innovation, I led a team of undergraduate engineers to develop a groundbreaking automated training device, tackling this challenge head-on. Our multidisciplinary approach resulted in a system that not only automated the training process but did so in a way that was engaging for mice, safe, reliable, and cost-effective. Key to our success was creating a user-friendly interface that allowed lab technicians without engineering backgrounds to easily maintain the system.
 					<br><br>
-					The system yielded mice with higher in-game performance and reduced training times by as much as 80 percent. It also proved to be extremely scalable and led to a 600 percent increase in training capacity. These metrics were incredibly valuable to the lab, whose limiting factor in research was often their supply of trained mice. 
+					This project significantly advanced the lab's research capabilities by slashing training times by up to 80% and increasing our training capacity sixfold, thereby resolving the critical bottleneck of producing sufficiently trained mice for complex neuroscience experiments.
 					<br><br>
-					Source code for the project can be found here: <a href="https://github.com/NigelBess/Autobehaviour-Games">Games and Hardware Interfacing</a>, <a href="https://github.com/NigelBess/PTB-Game-Engine">Game Engine</a>
+					The impact of our work extends beyond just numbers; it has opened new avenues for research, leading to developments in the mapping of the visual cortex, and insights into how memories are formed.
+					<br><br>
+					We engineered a generalized game engine for similar projects, enabling the development of similar research games with high efficiency. For an in-depth exploration of our engine's architecture and capabilities, please refer to our comprehensive documentation: <a href="https://github.com/NigelBess/PTB-Game-Engine/blob/master/Documentation.pdf">Game Engine Docs</a>
 					<br>
-					Documentation for the game engine can be found here: <a href="https://github.com/NigelBess/PTB-Game-Engine/blob/master/Documentation.pdf">Game Engine Docs</a>
+					To ensure seamless hardware integration and minimize response times, we also developed specialized Arduino firmware. This firmware transforms the Arduino Uno into an efficient, low-latency I/O device, crucial for our experiments' real-time demands. Discover the technical details and applications of our firmware here:<a href="https://github.com/NigelBess/Arduino-Server/blob/master/Docs.pdf">Arduino Server Docs</a>
+					<br>
+					Our project's source code, encompassing both the games designed for mouse training and the intricate hardware interfacing, is available for review. By sharing our code, we aim to contribute to the broader scientific and engineering communities, inviting collaboration and further innovation. Access our project's repositories at: <a href="https://github.com/NigelBess/Autobehaviour-Games">Games and Hardware Interfacing</a>, <a href="https://github.com/NigelBess/PTB-Game-Engine">Game Engine</a>
+					<br>
+					
 				</div>
 			</div>
 				
@@ -213,17 +239,22 @@
 						<img src="./img/animalTracking.gif" width="40%" style="height: auto;">
 				</div>
 				<div class="flexContent">
-					These were a collection of video games made for a research experiment in the Department of Anthropology at the University of California Santa Barbara. The games were used to test and measure cognitive differences between sexes regarding various hunting-related tasks.
+					In a pioneering study with the University of California Santa Barbara’s Department of Anthropology, I embraced the role of a solo developer to create a suite of interactive video games. These games are designed to explore cognitive differences across genders, focusing on tasks related to hunting.
 					<br>
 					<br>
-					The games can be downloaded here: <a href="https://www.dropbox.com/s/1ksifuhbx35dtik/Anthropology%20Games%20Setup%20%28Windows%2032%20bit%29.exe?dl=1" download class="dl"> Windows Installer (x86)</a>
+					<b>Discover the games</b>
 					<br>
-					Source code can be found here: <a href="https://github.com/NigelBess/Anthropology-Games/tree/master/Assets/Scripts">Github Link</a>
+					Immerse yourself in this research by downloading the games <a href="https://www.dropbox.com/s/1ksifuhbx35dtik/Anthropology%20Games%20Setup%20%28Windows%2032%20bit%29.exe?dl=1" download class="dl"> here</a>. (Windows Installer x86)
+					<br>
+					<br>
+					<b>Explore the Code</b>
+					<br>
+					Delve into the development process and explore the source code on <a href="https://github.com/NigelBess/Anthropology-Games/tree/master/Assets/Scripts">Github</a>.
 				</div>
 					<div class="sideFlex">
 						<img src="./img/trajectory.gif" width="40%">
 						<div class="flexContent">
-						One of the tasks requires participants to guess the landing location of a projectile.
+						<b>Projectile Prediction:</b>  Players immerse themselves in a virtual hunting scenario where they must anticipate the landing point of a launched arrow, testing their spatial prediction skills.
 						</div>
 					</div>
 					
@@ -231,14 +262,14 @@
 					<div class="sideFlex">
 						<img src="./img/find.gif" width="40%">
 						<div class="flexContent">
-						The participants are also tested in their ability to quickly find camouflaged animals in various photos. 
+						<b>Search for Camouflage:</b> In this visually stimulating challenge, participants attempt to identify camouflaged animals hidden within complex environments, simulating the acute observational skills required in traditional hunting. 
 						</div>
 						
 					</div>
 					<div class="sideFlex">
 						<img src="./img/anth1.png" width="40%">
 						<div class="flexContent">
-						The results are compared to each participant's performance in the mental rotation task. 
+						<b>Mental Rotation Assessment:</b> The culmination of these tasks is compared against each individual's ability to mentally rotate objects, a skill shown to have gender-dependent performance differences and hypothesized to stem from gender divides between prehistoric hunters and gatherers.
 						</div>
 						
 					</div>
@@ -249,9 +280,10 @@
 				</div>
 				<div class="sideFlex">
 					<div class="flexContent">
-						In June 2017 I began working on a realtime online MOBA-like game, called Wildy. The project has been a tremendous undertaking, as beyond requiring the basics of game development (architecture, 3D animation, GPU computing, etc), Wildy posed the additional challenge of maintaining a consistent game-state across multiple clients. This leadsto some complicated distributed systems and consensus problems which taught me many lessons in computing and software engineering.
-
-						I was able to bring the game to a playable state and had a couple successful online play tests, but in the end, poor architecture choices led to an unmaintanable mess which would be excessively time-consuming to work on. While the game was never fully released it has taught me many lessons that have led to successes in multiple large-scale projects in the professional world.
+						In June 2017, I embarked on developing a real-time online MOBA-like game, Wildy. As a solo developer, I navigated the complexities of game development including architecture, 3D animation, GPU computing, and networking. Wildy presented the unique challenge of synchronizing game-state across multiple clients, leading me to tackle intricate distributed systems and consensus issues. These challenges honed my computing and software engineering skills significantly.
+						<br>
+						<br>
+						I successfully brought the game to a playable state, conducting public playtests that engaged numerous players. Feedback from these tests was invaluable, although it also highlighted limitations due to early architectural decisions. Recognizing these limitations, I made the decision to pause development. However, the experience was far from a setback. The insights gained have propelled me to several professional achievements, enriching my approach to software design and project management. I continue to apply these lessons to current projects, always with an eye towards software best-practices and scalable architecture.
 
 						<br>
 						<br>
@@ -264,21 +296,33 @@
 				</div>
 			</div>
 			<div id="tab4" class="tab">
+				<div class="flexContent">
+				<b>High Precision Pan-Tilt System for FLIR Cameras</b>
+				<br>
+				As part of my Capstone project at the University of California, Santa Barbara, I collaborated with a talented team of engineers to explore a new potential drivetrain architecture for FLIR's pan-tilt lineup: Harmonic Drive®. This drivetrain technology eliminated the backlash that limited previous worm-drive systems, and aimed to bring unprecedented accuracy and repeatability into pan-tilt systems capable of seamless integration with FLIR’s thermal imaging cameras. This endeavor aimed not only to enhance the operational efficiency of FLIR’s imaging solutions but also to push the boundaries of high-zoom automated security monitoring systems.
 				<div style="text-align: center;">
 					<video controls autoplay width="40%" style="max-height: 500px;">
 						<source src="./img/assembly.mp4" type="video/mp4">
 					</video>
 				</div>
-				<div class="flexContent">
-					For my Capstone project at UCSB, I was part of a team that designed and built a high precision, high reliability pan-tilt system for FLIR. My biggest contributions to the project were the design of the rotary seal assemblies, design of the camera mounting system, drivetrain selection, and writing the firmware.
+				
+					This video showcases the meticulous design process and the collaborative effort that went into building the pan-tilt system. It begins with an exploded view of the CAD model, highlighting the complex assembly of components, each designed with precision and durability in mind. Pay particular attention to the rotary seal assemblies, motor mounts, camera mounting system, and waterproofing (which successfully passed IP67 standards). These were my primary mechanical contributions to this project. These components are crucial for ensuring the system's high performance and reliability under varied environmental conditions.
 					<br>
 					<br>
-					Firmware code (written in the assembly language for Trinamic driver boards) can be found here: <a href="https://github.com/NigelBess/FLIR-Pan-Tilt-Prototype/blob/master/main.tmc">Github Link</a>
+					<b>Firmware Development</b>
+					<br>
+					I acted as the primary software developer on the project, where I employed assembly language for Trinamic driver boards to breathe life into our mechanical design. The full firmware, along with detailed documentation, is available on <a href="https://github.com/NigelBess/FLIR-Pan-Tilt-Prototype/blob/master/main.tmc">Github</a>.
 				</div>
+				<br>
+				<br>
+				<b>Collaboration and Achievement</b>
+				<br>
 					<div class="sideFlex">
 						<img src="./img/award2.png" width="40%">
 						<div class="flexContent">
-							This project won the award for Best Technical Project in Mechanical Engineering.
+							Our project was not just a test of engineering skill but a testament to the power of teamwork, innovation, and perseverance. Competing against numerous other teams, our project was awarded the "Best Technical Project in Mechanical Engineering," a recognition of our holistic approach to solving real-world problems and our dedication to pushing the envelope in engineering design.
+							<br>
+							This award was the culmination of months of hard work, where each team member brought unique skills and insights to the table. My contribution to designing critical components and developing the firmware was a part of this collective effort, which taught me invaluable lessons in engineering, collaboration, and leadership.
 						</div>
 					</div>
 				</div>
